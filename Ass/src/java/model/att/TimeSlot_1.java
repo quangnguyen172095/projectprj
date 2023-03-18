@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author ADMIN
  */
-public class Timeslot {
+public class TimeSlot_1 {
     private int id;
     private String name;
     private ArrayList<Session> sessions = new ArrayList<>();
@@ -38,6 +38,4 @@ public class Timeslot {
     public void setSessions(ArrayList<Session> sessions) {
         this.sessions = sessions;
     }
-    
-    
 }
